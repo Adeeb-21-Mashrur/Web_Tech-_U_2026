@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal academic profile page showcasing education, biography, and contact form for internship or academic review.">
+    <meta name="keywords" content="Academic Profile, Student, Internship, Education, Portfolio">
+    <meta name="author" content="Adeeb Mashrur">
+    <title>Adeeb Mashrur | Academic Profile</title>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Adeeb Mashrur</h1>
+        <p>Undergraduate Student | Aspiring IT Professional</p>
+
+
+        <nav>
+            <a href="#biography">Biography</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>
+                As a dedicated undergraduate, I have a keen interestin software engineering, web development, and modern technology.
+                I'm always trying to get better at programming, solving problems, and working in a team.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <table border="1">
+                <caption><strong>Academic Qualifications</strong></caption>
+
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc in Computer Science</td>
+                        <td>American International University – Bangladesh (AIUB)</td>
+                        <td>2019 - Present</td>
+                        <td>CGPA: 2.78/4.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Higher Secondary Certificate (HSC)</td>
+                        <td>The Millennium Stars School and College, Rangpur</td>
+                        <td>2002 - 2018</td>
+                        <td>GPA: 5.00/5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+    
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name"
+                       required maxlength="50">
+                <br><br>
+
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email"
+                       required maxlength="60">
+                <br><br>
+
+     
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="01XXXXXXXXX"
+                       pattern="[0-9]{11}"
+                       title="Enter an 11-digit phone number"
+                       maxlength="11">
+                <br><br>
+
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"
+                          placeholder="Write your message here..."
+                          required maxlength="300"
+                          rows="5" cols="40"></textarea>
+                <br><br>
+
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Reset">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Contact: adeeb@example.com</p>
+        <p>&copy; 2026 Adeeb Mashrur. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
